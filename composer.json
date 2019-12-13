@@ -1,0 +1,26 @@
+{
+  "name": "islandora-rdm/islandora_interview",
+  "description": "Core Islandora interview media type module",
+  "type": "drupal-module",
+  "keywords": ["Drupal", "Islandora"],
+  "homepage": "https://github.com/roblib/islandora_interview", 
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": { 
+    "islandora/islandora_defaults": "*", 
+    "drupal/paragraphs": "*", 
+    "drupal/videojs": "*" 
+  },
+  "license": "GPL-2.0+",
+  "authors": [ 
+    {
+      "name": "Alexander O'Neill",
+      "email": "aloneill@gmail.com",
+      "role": "Contributor"
+    } 
+  ]
+}
