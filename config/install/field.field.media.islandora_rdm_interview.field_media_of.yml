@@ -4,9 +4,7 @@ dependencies:
   config:
     - field.storage.media.field_media_of
     - media.type.islandora_rdm_interview
-    - node.type.islandora_object
-    - node.type.islandora_oral_history
-    - node.type.islandora_rdm_dataset
+    - node.type.islandora_object 
 id: media.islandora_rdm_interview.field_media_of
 field_name: field_media_of
 entity_type: media
@@ -20,9 +18,7 @@ default_value_callback: ''
 settings:
   handler: 'default:node'
   handler_settings:
-    target_bundles:
-      islandora_oral_history: islandora_oral_history
-      islandora_rdm_dataset: islandora_rdm_dataset
+    target_bundles: 
       islandora_object: islandora_object
     sort:
       field: _none
